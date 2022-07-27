@@ -22,7 +22,7 @@ public final class ApiResponse {
   }
 
   public static ApiResponse ok(Object data) {
-    return new ApiResponse(0, "", data);
+    return new ApiResponse(0, "TEST1!!!!!!!!!!", data);
   }
 
   public static ApiResponse error(String errorMsg) {
