@@ -1,12 +1,12 @@
 server:
-  port: 80
+  port: 81
 
 
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://sh-cynosdbmysql-grp-a3t8m7vc.sql.tencentcdb.com:25863/punch-doubles?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
-    username: root
+    username: root3
     password: Dhzu8Dn5
   mvc:
     view:
