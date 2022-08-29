@@ -34,7 +34,7 @@ public class UserController {
      */
   @PostMapping(value = "/api/user/insert")
   ApiResponse insert(User user) {
-    logger.info("/api/user/insert get request");
+    logger.info("/api/user/insert get request:{}",user);
     if(null == user.getOpenId()){
       return  ApiResponse.error("openId为空");
     }
