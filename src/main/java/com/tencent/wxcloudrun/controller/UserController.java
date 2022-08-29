@@ -41,7 +41,7 @@ public class UserController {
     if(userService.insertUser(user)){
       return ApiResponse.ok();
     }
-    return ApiResponse.error("插入失败");
+    return ApiResponse.error("插入失败1");
   }
 
 
