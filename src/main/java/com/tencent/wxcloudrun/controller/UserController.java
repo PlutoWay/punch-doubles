@@ -33,7 +33,7 @@ public class UserController {
      * @return
      */
   @PostMapping(value = "/api/user/insert")
-  ApiResponse insert(@RequestBody User user) {
+  ApiResponse insert(User user) {
     logger.info("/api/user/insert get request");
     if(userService.insertUser(user)){
       return ApiResponse.ok();
